@@ -3,7 +3,7 @@
 A modern React application for browsing, searching, and saving your favorite movies using the [TMDB API](https://www.themoviedb.org/).  
 Built with **React**, **Vite**, **Tailwind CSS**, **Framer Motion**, and fully responsive with dark mode support.
 
-🚀 **Live Demo:** [[https://twoj-link-vercel.vercel.app][(https://twoj-link-vercel.vercel.app](https://movie-app-gamma-sand.vercel.app/)](https://movie-app-gamma-sand.vercel.app/))
+🚀 **Live Demo:**(https://twoj-link-vercel.vercel.app](https://movie-app-gamma-sand.vercel.app/)](https://movie-app-gamma-sand.vercel.app/
 
 ---
 
