@@ -1,6 +1,6 @@
 import { useFavorites } from "../hooks/useFavorites";
 import { Link } from "react-router-dom";
-
+import { motion } from "framer-motion";
 
 export default function MovieCard({ movie }) {
   const { isFavorite, addFavorite, removeFavorite } = useFavorites();
@@ -14,7 +14,11 @@ export default function MovieCard({ movie }) {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-800 p-2 rounded relative shadow-md transition-transform ">
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      transition={{ type: "spring", stiffness: 300 }}
+      className="bg-white dark:bg-gray-800 p-2 rounded relative shadow-md cursor-pointer mb-3"
+    >
       <Link to={`/movie/${movie.id}`}>
         <img
           src={image}
@@ -38,6 +42,6 @@ export default function MovieCard({ movie }) {
           <span className="text-white dark:text-white">🤍</span>
         )}
       </button>
-    </div>
+    </motion.div>
   );
 }

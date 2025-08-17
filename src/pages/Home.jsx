@@ -115,7 +115,7 @@ export default function Home() {
         </div>
       ) : (
         <>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-6">
             {results.map((movie, index) => (
               <motion.div
                 key={movie.id}
